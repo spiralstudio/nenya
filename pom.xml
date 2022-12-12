@@ -5,7 +5,7 @@
   <groupId>com.threerings</groupId>
   <artifactId>nenya-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.8-SNAPSHOT</version>
+  <version>2.0.0</version>
 
   <name>Nenya Parent</name>
   <description>Facilities for making Java games.</description>
@@ -39,7 +39,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <narya.version>1.17</narya.version>
+    <narya.version>2.0.0</narya.version>
   </properties>
 
   <modules>
@@ -55,7 +55,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.13.0</version>
         <configuration>
-          <release>10</release>
+          <source>1.8</source>
+          <target>1.8</target>
           <fork>true</fork>
           <showDeprecation>true</showDeprecation>
           <showWarnings>true</showWarnings>
